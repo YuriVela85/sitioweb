@@ -17,11 +17,12 @@ body{
 background-image: url(../img/fondo.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+
 }
 
 h1{
 font-family: 'Libre Franklin', sans-serif;;
-color: #004466;
+color: black;
 margin-left: 10px;
 font-size: 30px;
 text-align: center; 
@@ -33,7 +34,7 @@ font-family: 'Libre Franklin', sans-serif;;
 color: black;
 margin-left: 10px;
 font-size: 20px;
-text-align: left; 
+text-align: center; 
 }
 
 h3{
@@ -51,6 +52,13 @@ font-size: 20px;
 text-align: center; 
 }
 
+h5{
+font-family: 'Libre Franklin', sans-serif;;
+color: black;
+margin-left: 10px;
+font-size: 15px;
+text-align: center;
+}
 
 header{
 	width: 1000px;
@@ -58,12 +66,13 @@ header{
 	background: rgba(255, 255, 255, 10,70);
 	text-align: center; 
 
+
 }
 
 nav{
 width: 1000px;
-height: 65px;
-background: white;
+height: 60px;
+background: #F2B80D;
 border-radius: 10px;
 
 
@@ -75,19 +84,24 @@ margin-left: 10px;
 font-size: 20px; 
 margin: auto;
 padding-top: 4px;
-text-align: center; 
+text-align: center;
+
+
+
 }
 
 li{
-	float: left;
+	float: left; 
 	list-style-type: none;
+	width:162px;
 	padding: 10px;
 	background: #004466;
-	margin: 3px;
+	margin: 1px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px black inset; 
+	box-shadow: 0 0 10px black inset;
 
 }
+
 
 section{
 	width: 700px;
@@ -127,9 +141,19 @@ p{
 	line-height: 18px;
 	padding: 10px;
 	text-align: justify;
+
 }
 
+#left{
+	text -align:left;
+	margin-left: -30px;
 
+}
+
+#center{
+	text-align:center;
+
+}
 
 
 /*CLASES*/
